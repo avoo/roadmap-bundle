@@ -1,0 +1,29 @@
+{
+    "name": "avoo/roadmap-bundle",
+    "description": "Roadmap bundle for Symfony",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.1.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy Jégou",
+            "email": "jejeavo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Avoo\\RoadmapBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
